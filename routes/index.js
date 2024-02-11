@@ -6,7 +6,7 @@ const SibApiV3Sdk = require('sib-api-v3-sdk');
 const defaultClient = SibApiV3Sdk.ApiClient.instance;
 
 var apiKey = defaultClient.authentications['api-key'];
-apiKey.apiKey = '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';
+apiKey.apiKey = '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';
 
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
